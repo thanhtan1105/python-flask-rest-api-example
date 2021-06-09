@@ -18,7 +18,7 @@ api.add_namespace(pc, path='/product')
 api.add_namespace(vc, path='/variant')
 api.add_namespace(ic, path='/image')
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://tanlt:Br9Oh3Tc2Dg7Xp5C@45.119.82.118:3306/tanlt"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:root@db:3306/main"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 CORS(app)
 
