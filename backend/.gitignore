@@ -1,0 +1,4 @@
+./migrations
+/.dbdata
+/__pycache__
+/util/__pycache__/
